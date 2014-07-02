@@ -87,7 +87,7 @@ $>sudo /etc/init.d/lighttpd force-reload
 
 ---= Add pi user to www-data group =---
 
-$>sudousermod -a -G www-data pi 
+$>sudo usermod -a -G www-data pi 
 
 $>sudo apt-get install php5-rrd libexpect-php5 php-auth-sasl php-mail php-net-smtp php-net-socket
 
